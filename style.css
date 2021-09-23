@@ -1,5 +1,26 @@
-*{margin: 0px; padding: 0px;}
-ul{list-style: none;}
-a{text-decoration: none;}
+.container{
+  background-color: #F5F5DC
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0;
+}
 
-
+.input-container {
+  width: 60%;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
+#input {
+  width: 70%;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border:1 1px solid #000000;
+}
+#add-button{
+  width: 20%;
+  background-color: #FF1111;
+  border-radius:5px;
+  border: 1px solid #FF1111;
+  color: white;
+}
