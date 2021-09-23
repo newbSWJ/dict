@@ -1,1 +1,1 @@
-# dict
+# word memorizing website
